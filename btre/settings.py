@@ -161,11 +161,7 @@ MESSAGE_TAGS = {
 
 #email configuration settings
 
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'mr.kedardeshmukh@gmail.com'
-EMAIL_HOST_PASSWORD = 'Kedar@email'
-EMAIL_USE_TLS = True
+
 
 try:
     from .local_settings import *
